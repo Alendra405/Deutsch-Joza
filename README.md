@@ -14,4 +14,4 @@ Features:
 - Results visualized with histograms showing the clear distinction
 
 A classic example of quantum parallelism and interference!
-<img width="640" height="480" alt="Figure_1" src="https://github.com/user-attachments/assets/94e4cd8d-bab2-4a50-8eed-0059cda6e670" />
+<img width="640" style="margin:auto; display:block;" height="480" alt="Figure_1" src="https://github.com/user-attachments/assets/94e4cd8d-bab2-4a50-8eed-0059cda6e670" />
