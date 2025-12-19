@@ -14,8 +14,7 @@ qc.barrier()
 qc_constant = qc.copy('constant')
 qc_constant.barrier()
 
-for qubit in range(n):
-    qc.cx(qubit, n)
+qc.cx(0, n)
 qc.name = 'balanced'
 qc.barrier()
 
@@ -46,4 +45,5 @@ print("CO:", counts_constant)
 print("BA:", counts_balanced)
 
 plot_histogram([counts_constant, counts_balanced], legend=['CO', 'BA'])
+
 plt.show()
